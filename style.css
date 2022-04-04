@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/*
+
+#23606E - ciano 1
+#FACFCE - rosinha clarin
+#008F8C - ciano clarin
+#015958 - ciano 2
+#023535 - ciano escurao
+
+*/
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 1.6em;
+}
+
+header {
+    padding: 6rem;
+    background-color: #023535;
+    color: #FACFCE;
+}
+
+header > h1 {
+    font-size: 8rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+header > h2 {
+    font-weight: 300;
+}
+
+header > h2 abbr{
+    text-decoration: none;
+}
+
+#zen-intro > .header-articles {
+    color: white;
+    background-color: #015958;
+}
+
+#zen-intro a {
+    color: #FACFCE;
+}
+
+#zen-intro h3 {
+    color: #FACFCE;
+}
+
+.header-articles {
+    padding: 3rem 0;
+}
+
+.header-articles > #zen-summary{
+    font-size: 2rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.page-wrapper {
+    width: 100%;
+    flex-grow: 1;
+}
+
+.page-wrapper h3 {
+    padding: 2rem 2rem 2rem 6rem;
+    font-size: 2em;
+    color: #023535;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.page-wrapper p {
+    text-align: justify;
+    padding: 0.5rem 6rem;
+    font-size: 1.1em;
+}
+
+.page-wrapper a {
+    color: #008F8C;
+    text-decoration: underline;
+}
+
+.page-wrapper abbr {
+    text-decoration: none;
+}
+
+#zen-explanation, #zen-participation{
+    width: 60%;
+    float: left;
+    padding: 2.5rem 0;
+}
+
+.sidebar-section {
+    width: 100%;
+}
+
+aside {
+    color: #FACFCE;
+    height: 40em;
+    width: 30%;
+    background-color: #23606E;
+    float: right;
+    padding: 4.5rem;
+}
+
+aside.sidebar h3 {
+    color: #FACFCE;
+    padding-left: 0;
+}
+
+aside > .wrapper ul li a {
+    color: #FACFCE;
+    text-decoration: none;
+}
+
+aside > .wrapper ul{
+    list-style: none;
+}
+
+aside > .wrapper ul li a:hover {
+    color: #FACFCE;
+    text-decoration: underline;
+}
+
+aside ul li > .design-name {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+aside ul li > .designer-name {
+    font-weight: 300;
+    font-style: italic;
+}
+
+#zen-benefits {
+    background-color: #015958;
+    clear: both;
+    color: white;
+    padding: 4rem 0;
+}
+
+#zen-benefits > p {
+    font-weight: 300;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#zen-benefits h3 {
+    color: #FACFCE;
+}
+
+#zen-requirements {
+    padding: 4rem 0;
+}
+
+footer {
+    background: #023535;
+    padding: 4rem;
+    text-align: center;
+}
+
+footer i {
+    font-size: 6rem;
+    color: white;
+    padding: 0 2rem;
+}
+
+#zen-supporting > footer > a {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+
+    header > h1 {
+        font-size: 4rem;
+    }
+
+    aside {
+        text-align: center;
+        padding: 0;
+        width: 100%;
+        float: none;
+    }
+
+    #zen-explanation, #zen-participation{
+        width: 100%;
+        float: none;
+    }
+}
